@@ -6,7 +6,7 @@ func main() {
 	var v int
 	s := 1
 	for i := 0; i < 3; i++ {
-		fmt.Scan(&v)
+		_, _ = fmt.Scan(&v)
 		s *= v
 
 	}
